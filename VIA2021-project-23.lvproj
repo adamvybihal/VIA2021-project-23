@@ -43,6 +43,8 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Save_TDMS.vi" Type="VI" URL="../Save_TDMS.vi"/>
 		<Item Name="DAQmx_settings.ctl" Type="VI" URL="../DAQmx_settings.ctl"/>
+		<Item Name="Detect_Pulses.vi" Type="VI" URL="../Detect_Pulses.vi"/>
+		<Item Name="Ideal_pulse.vi" Type="VI" URL="../Ideal_pulse.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
