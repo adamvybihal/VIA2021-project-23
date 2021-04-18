@@ -22,19 +22,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Project Documentation" Type="Folder">
 			<Item Name="Documentation Images" Type="Folder">
-				<Item Name="loc_open_data_typedef.png" Type="Document" URL="../documentation/loc_open_data_typedef.png"/>
-				<Item Name="loc_open_states_typedef.png" Type="Document" URL="../documentation/loc_open_states_typedef.png"/>
-				<Item Name="loc_simple_state_machine.png" Type="Document" URL="../documentation/loc_simple_state_machine.png"/>
-				<Item Name="loc_state_transition.png" Type="Document" URL="../documentation/loc_state_transition.png"/>
-				<Item Name="loc_transition_error.png" Type="Document" URL="../documentation/loc_transition_error.png"/>
-				<Item Name="loc_use_state_data.png" Type="Document" URL="../documentation/loc_use_state_data.png"/>
-				<Item Name="loc_conditional_state_transition.png" Type="Document" URL="../documentation/loc_conditional_state_transition.png"/>
-				<Item Name="loc_new_button.png" Type="Document" URL="../documentation/loc_new_button.png"/>
-				<Item Name="loc_new_button_transition.png" Type="Document" URL="../documentation/loc_new_button_transition.png"/>
-				<Item Name="loc_new_button_value_change.png" Type="Document" URL="../documentation/loc_new_button_value_change.png"/>
-				<Item Name="loc_new_state.png" Type="Document" URL="../documentation/loc_new_state.png"/>
+				<Item Name="23-fsm.png" Type="Document" URL="../documentation/23-fsm.png"/>
 			</Item>
-			<Item Name="Simple State Machine Documentation.html" Type="Document" URL="../documentation/Simple State Machine Documentation.html"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
@@ -42,13 +31,18 @@
 			<Item Name="DAQmx_settings.ctl" Type="VI" URL="../controls/DAQmx_settings.ctl"/>
 			<Item Name="VI_ref.ctl" Type="VI" URL="../controls/VI_ref.ctl"/>
 		</Item>
+		<Item Name="Sub_VI" Type="Folder">
+			<Item Name="Save_TDMS.vi" Type="VI" URL="../Save_TDMS.vi"/>
+			<Item Name="Detect_Pulses.vi" Type="VI" URL="../Detect_Pulses.vi"/>
+			<Item Name="Ideal_pulse.vi" Type="VI" URL="../Ideal_pulse.vi"/>
+			<Item Name="DAQmx_settings_update.vi" Type="VI" URL="../DAQmx_settings_update.vi"/>
+			<Item Name="UI_enable.vi" Type="VI" URL="../UI_enable.vi"/>
+			<Item Name="Pulse_length.vi" Type="VI" URL="../Pulse_length.vi"/>
+		</Item>
+		<Item Name="TDMS_files" Type="Folder" URL="../TDMS_files">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Save_TDMS.vi" Type="VI" URL="../Save_TDMS.vi"/>
-		<Item Name="Detect_Pulses.vi" Type="VI" URL="../Detect_Pulses.vi"/>
-		<Item Name="Ideal_pulse.vi" Type="VI" URL="../Ideal_pulse.vi"/>
-		<Item Name="DAQmx_settings_update.vi" Type="VI" URL="../DAQmx_settings_update.vi"/>
-		<Item Name="UI_enable.vi" Type="VI" URL="../UI_enable.vi"/>
-		<Item Name="Pulse_length.vi" Type="VI" URL="../Pulse_length.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
