@@ -39,13 +39,13 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../controls/State.ctl"/>
+			<Item Name="DAQmx_settings.ctl" Type="VI" URL="../controls/DAQmx_settings.ctl"/>
+			<Item Name="VI_ref.ctl" Type="VI" URL="../controls/VI_ref.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Save_TDMS.vi" Type="VI" URL="../Save_TDMS.vi"/>
-		<Item Name="DAQmx_settings.ctl" Type="VI" URL="../DAQmx_settings.ctl"/>
 		<Item Name="Detect_Pulses.vi" Type="VI" URL="../Detect_Pulses.vi"/>
 		<Item Name="Ideal_pulse.vi" Type="VI" URL="../Ideal_pulse.vi"/>
-		<Item Name="VI_ref.ctl" Type="VI" URL="../VI_ref.ctl"/>
 		<Item Name="DAQmx_settings_update.vi" Type="VI" URL="../DAQmx_settings_update.vi"/>
 		<Item Name="UI_enable.vi" Type="VI" URL="../UI_enable.vi"/>
 		<Item Name="Pulse_length.vi" Type="VI" URL="../Pulse_length.vi"/>
@@ -264,6 +264,7 @@
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
